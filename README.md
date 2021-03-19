@@ -1,1 +1,1 @@
-# Codifica Jacopo Gentili - Informatica umanistica 
+# Codifica di Testi -  Jacopo Gentili  -  Informatica umanistica 
