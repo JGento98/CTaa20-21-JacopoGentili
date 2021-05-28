@@ -1,0 +1,54 @@
+<!ELEMENT TEI (teiHeader, text)*>
+<!ELEMENT teiHeader (fileDesc, encodingDesc)>
+
+<!ELEMENT fileDesc (titleStmt, publicationStmt, sourceDesc)>
+<!ELEMENT encodingDesc (p)>
+
+<!ELEMENT text (body)>
+<!ELEMENT body (div)*>
+<!ELEMENT div (p|closer)*>
+<!ELEMENT closer (#PCDATA|persName|salute)*>
+<!ELEMENT p (#PCDATA|pc|persName|salute|placeName|num|opener|abbr)*>
+<!ELEMENT opener (#PCDATA|salute)* >
+<!ELEMENT salute (#PCDATA)>
+<!ELEMENT abbr (#PCDATA|pc)*>
+<!ELEMENT pc (#PCDATA)>
+<!ELEMENT titleStmt (title, author, respStmt)>
+<!ELEMENT publicationStmt (p, avalability)>
+<!ELEMENT sourceDesc (bibl)>
+
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT respStmt (resp, name)>
+<!ELEMENT avalability (p)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT bibl (title, author, pubPlace)>
+
+<!ELEMENT placeName (#PCDATA)>
+<!ELEMENT num (#PCDATA)>
+<!ELEMENT persName (#PCDATA|surname|forename)*>
+<!ELEMENT surname (#PCDATA)>
+<!ELEMENT forename (#PCDATA)>
+
+<!ELEMENT resp (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT choice (#PCDATA|orig|reg)*>
+<!ELEMENT orig (#PCDATA|damage)*>
+<!ELEMENT damage (#PCDATA)*>
+<!ELEMENT reg (#PCDATA)>
+<!ELEMENT pubPlace (#PCDATA)>
+
+
+
+
+<!ATTLIST avalability status (free|unknown|restricted) #IMPLIED>
+<!ATTLIST date when CDATA #IMPLIED>
+<!ATTLIST div part CDATA #REQUIRED>
+<!ATTLIST TEI xmlns CDATA "http://www.tei-c.org/ns/1.0">
+<!ATTLIST placeName country CDATA #IMPLIED> 
+<!ATTLIST placeName rend CDATA #IMPLIED> 
+<!ATTLIST dateline lang CDATA #IMPLIED> 
+<!ATTLIST num type (cardinal|ordinal|fraction|percentage) #IMPLIED>
+<!ATTLIST damage agent CDATA #IMPLIED> 
+<!ATTLIST space dim (vertical|horizontal) #IMPLIED> 
+<!ATTLIST pc unit CDATA #IMPLIED> 

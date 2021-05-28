@@ -1,0 +1,86 @@
+<!ELEMENT TEI (teiHeader, text)*>
+<!ELEMENT teiHeader (fileDesc, encodingDesc)>
+
+<!ELEMENT fileDesc (titleStmt, publicationStmt, sourceDesc)>
+<!ELEMENT encodingDesc (p)>
+
+<!ELEMENT text (body)>
+<!ELEMENT body (front|div|space|back)*>
+<!ELEMENT div (p|cb|figure|space)*>
+<!ELEMENT front (head|titlePart|analytic|add|name)*>
+<!ELEMENT back (#PCDATA)>
+<!ELEMENT add (#PCDATA|placeName|foreign|num|pc|name)*>
+<!ELEMENT analytic (#PCDATA)>
+<!ELEMENT foreign (#PCDATA)>
+<!ELEMENT head (#PCDATA|name|pc|persName)*>
+<!ELEMENT space EMPTY>
+<!ELEMENT cb (p|persName)*>
+<!ELEMENT figure (figDesc|graphic)*>
+<!ELEMENT figDesc (#PCDATA|name|pc)*>
+<!ELEMENT p (#PCDATA|said|pc|persName|placeName|date|name|hi)*>
+<!ELEMENT pc (#PCDATA)>
+<!ELEMENT hi (#PCDATA)>
+<!ELEMENT graphic EMPTY>
+<!ELEMENT said (#PCDATA|salute|num|abbr|extend|foreign|pc)*>
+<!ELEMENT salute (#PCDATA)>
+<!ELEMENT titleStmt (title, author, respStmt)>
+<!ELEMENT publicationStmt (p, avalability)>
+<!ELEMENT sourceDesc (bibl)>
+
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT titlePart (#PCDATA|persName)*>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT respStmt (resp, name)>
+<!ELEMENT avalability (p)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT bibl (title, author, pubPlace)>
+
+<!ELEMENT placeName (#PCDATA)>
+<!ELEMENT num (#PCDATA|abbr|extend)*>
+<!ELEMENT persName (#PCDATA|surname|forename)*>
+<!ELEMENT surname (#PCDATA)>
+<!ELEMENT forename (#PCDATA)>
+<!ELEMENT abbr (#PCDATA) >
+<!ELEMENT name (#PCDATA) >
+<!ELEMENT extend (#PCDATA) >
+
+
+
+<!ELEMENT resp (#PCDATA)>
+<!ELEMENT choice (#PCDATA|orig|reg)*>
+<!ELEMENT orig (#PCDATA|damage)*>
+<!ELEMENT damage (#PCDATA)*>
+<!ELEMENT reg (#PCDATA)>
+<!ELEMENT pubPlace (#PCDATA)>
+
+
+
+
+<!ATTLIST avalability status (free|unknown|restricted) #IMPLIED>
+<!ATTLIST date when CDATA #IMPLIED>
+<!ATTLIST TEI xmlns CDATA "http://www.tei-c.org/ns/1.0">
+<!ATTLIST placeName country CDATA #IMPLIED> 
+<!ATTLIST placeName rend CDATA #IMPLIED> 
+<!ATTLIST dateline lang CDATA #IMPLIED> 
+<!ATTLIST num type (cardinal|ordinal|fraction|percentage) #IMPLIED>
+<!ATTLIST damage agent CDATA #IMPLIED> 
+<!ATTLIST space dim (vertical|horizontal) #IMPLIED> 
+<!ATTLIST pc unit CDATA #IMPLIED> 
+<!ATTLIST head rend CDATA #IMPLIED> 
+<!ATTLIST analytic rend CDATA #IMPLIED> 
+<!ATTLIST analytic level CDATA #IMPLIED> 
+<!ATTLIST titlePart rend CDATA #IMPLIED> 
+<!ATTLIST analytic color CDATA #IMPLIED> 
+<!ATTLIST div type CDATA #IMPLIED> 
+<!ATTLIST cb position (sx|central|dx) #IMPLIED> 
+<!ATTLIST cb n CDATA #IMPLIED> 
+<!ATTLIST said type (question|answer) #IMPLIED> 
+<!ATTLIST said rend CDATA #IMPLIED>
+<!ATTLIST figDesc rend CDATA #IMPLIED>  
+<!ATTLIST space type (horizontal|vertical) #IMPLIED> 
+
+<!ATTLIST add xml:lang CDATA #IMPLIED>
+<!ATTLIST div xml:lang CDATA #IMPLIED>
+<!ATTLIST graphic url CDATA #IMPLIED> 
+<!ATTLIST graphic position (sx|dx) #IMPLIED> 
+<!ATTLIST hi rend CDATA #IMPLIED> 

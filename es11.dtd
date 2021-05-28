@@ -1,0 +1,80 @@
+<!ELEMENT TEI (teiHeader, text,facsimile)*>
+<!ELEMENT teiHeader (fileDesc, encodingDesc)>
+
+<!ELEMENT fileDesc (titleStmt, publicationStmt, sourceDesc)>
+<!ELEMENT encodingDesc (p)>
+
+<!ELEMENT text (body)>
+<!ELEMENT body (div)>
+<!ELEMENT div (pb,opener, p)*>
+<!ELEMENT p (#PCDATA|pc)*>
+<!ELEMENT pb EMPTY>
+
+<!ELEMENT titleStmt (title, author, respStmt)>
+<!ELEMENT publicationStmt (p, publisher+, avalability)>
+<!ELEMENT sourceDesc (bibl)>
+
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT respStmt (resp, name)>
+<!ELEMENT publisher (#PCDATA|date)*>
+<!ELEMENT avalability (p)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT bibl (title, author, pubPlace, date)>
+
+<!ELEMENT opener (dateline, salute)>
+
+<!ELEMENT dateline (#PCDATA|placeName|num|space|pc)*>
+<!ELEMENT placeName (#PCDATA)>
+<!ELEMENT num (#PCDATA)>
+
+<!ELEMENT salute (#PCDATA|persName)*>
+<!ELEMENT persName (#PCDATA|damage|choice)*>
+<!ELEMENT space EMPTY> 
+<!ELEMENT pc (#PCDATA)> 
+
+<!ELEMENT resp (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT choice (#PCDATA|orig|reg)*>
+<!ELEMENT orig (#PCDATA|damage)*>
+<!ELEMENT damage (#PCDATA)*>
+<!ELEMENT reg (#PCDATA)>
+<!ELEMENT pubPlace (#PCDATA)>
+
+<!ELEMENT facsimile (surface)>
+<!ELEMENT surface (graphic|zone+)*>
+<!ELEMENT graphic EMPTY>
+<!ELEMENT zone EMPTY>
+
+<!ATTLIST avalability status (free|unknown|restricted) #IMPLIED>
+<!ATTLIST date when CDATA #IMPLIED>
+<!ATTLIST div type CDATA #IMPLIED>
+<!ATTLIST TEI xmlns CDATA "http://www.tei-c.org/ns/1.0">
+<!ATTLIST placeName country CDATA #IMPLIED> 
+<!ATTLIST placeName rend CDATA #IMPLIED> 
+<!ATTLIST dateline lang CDATA #IMPLIED> 
+<!ATTLIST num type (cardinal|ordinal|fraction|percentage) #IMPLIED>
+<!ATTLIST damage agent CDATA #IMPLIED> 
+<!ATTLIST space dim (vertical|horizontal) #IMPLIED> 
+<!ATTLIST pc unit CDATA #IMPLIED> 
+
+<!ATTLIST surface xml:id ID #IMPLIED> 
+<!ATTLIST surface start CDATA #IMPLIED>
+<!ATTLIST graphic url CDATA #IMPLIED> 
+<!ATTLIST zone xml:id ID #IMPLIED> 
+<!ATTLIST pb xml:id ID #IMPLIED> 
+
+<!ATTLIST pb facs CDATA #IMPLIED> 
+<!ATTLIST dateline facs CDATA #IMPLIED> 
+<!ATTLIST salute facs CDATA #IMPLIED>
+<!ATTLIST p facs CDATA #IMPLIED>  
+
+<!ATTLIST surface ulx CDATA #IMPLIED>  
+<!ATTLIST surface uly CDATA #IMPLIED> 
+<!ATTLIST surface lrx CDATA #IMPLIED>  
+<!ATTLIST surface lry CDATA #IMPLIED>
+
+<!ATTLIST zone ulx CDATA #IMPLIED>  
+<!ATTLIST zone uly CDATA #IMPLIED> 
+<!ATTLIST zone lrx CDATA #IMPLIED>  
+<!ATTLIST zone lry CDATA #IMPLIED>

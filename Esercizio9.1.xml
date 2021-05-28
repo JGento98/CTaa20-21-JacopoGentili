@@ -1,0 +1,67 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "./es9.1.dtd">
+<!--    WELL FORMED -->
+<TEI xmlns = "http://www.tei-c.org/ns/1.0" >
+ <!--TEI HEADER -->
+ <teiHeader> 
+        <fileDesc>
+            <!-- sezione per la codifica del titolo dell'edizione digitale--> 
+            <titleStmt> 
+                <title>Cartolina</title>
+                <author>Giuseppa Tumbarello</author>
+                <respStmt>
+                    <resp>Testo codificato dal testo originale con TEI P5 a cura di </resp>
+                    <name>Jacopo Gentili </name>
+                </respStmt>
+            </titleStmt>
+
+            <!-- Sezione per la codifica dei dati di diffusione e distribuzione dell'edizione-->
+            <publicationStmt>
+                  <p>Codifica di esercizio </p>
+                  <avalability status ="restricted"><p>No licenza</p></avalability>
+            </publicationStmt>
+
+            <!-- Descrizione fonte primaria -->
+            <sourceDesc>
+                <bibl>
+                <title>Cartolina</title>
+                <author>Giuseppa Tumbarello</author>
+                <pubPlace>Italia</pubPlace>
+                </bibl>
+          </sourceDesc>
+
+        </fileDesc>
+
+        <encodingDesc>
+            <p>Codifica in TEI P5 partendo dal manoscritto originale</p>    
+        </encodingDesc>
+
+ </teiHeader>
+ <!-- FINE HEADER -->
+
+    <text>
+        <body>
+            <div part="sx">
+                <p>
+                <opener>
+                 <salute>Tanti saluti </salute> 
+                </opener>
+                dalla suocera di <persName>Mariuccia</persName> un abbraccio per mia nuora e saluti per tutti<pc unit="full-stop">.</pc>
+                </p>
+                <closer>
+                    <persName> <forename>Giuseppa</forename> <surname>Tumbarello</surname></persName> 
+                    <salute>ciao ciao</salute> 
+                 </closer>
+            </div>
+
+            <div part="dx">
+                <p>
+                <persName><surname>Indelicato</surname> <forename>Simone</forename></persName>
+                Fermaposta<pc unit="low-line">_</pc><placeName country="Italy">Campobello di Mazara</placeName><num>91021</num>
+                <pc unit="low-line">(</pc><abbr>T.P.</abbr> <pc unit="low-line">)</pc>
+            </p>
+            </div>
+
+       </body>
+    </text>
+</TEI>

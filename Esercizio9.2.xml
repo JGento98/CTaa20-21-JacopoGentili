@@ -1,0 +1,140 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!--WELL-FORMED  --> 
+<!DOCTYPE TEI SYSTEM "./es9.2.dtd">
+<TEI xmlns = "http://www.tei-c.org/ns/1.0" >
+ <!--TEI HEADER -->
+ <teiHeader> 
+        <fileDesc>
+            <!-- sezione per la codifica del titolo dell'edizione digitale--> 
+            <titleStmt> 
+                <title>Respiro Mondiale</title>
+                <author>Fabio Butturi</author>
+                <respStmt>
+                    <resp>Testo codificato dal testo originale con TEI P5 a cura di </resp>
+                    <name>Jacopo Gentili </name>
+                </respStmt>
+            </titleStmt>
+
+            <!-- Sezione per la codifica dei dati di diffusione e distribuzione dell'edizione-->
+            <publicationStmt>
+                  <p>Codifica di esercizio </p>
+                  <avalability status ="restricted"><p>No licenza</p></avalability>
+            </publicationStmt>
+
+            <!-- Descrizione fonte primaria -->
+            <sourceDesc>
+                <bibl>
+                <title>Diesel</title>
+                <author>Fabio Butturi</author>
+                <pubPlace>Italia</pubPlace>
+                </bibl>
+          </sourceDesc>
+
+        </fileDesc>
+
+        <encodingDesc>
+            <p>Codifica in TEI P5 partendo da un'immagine contnenete un articolo</p>    
+        </encodingDesc>
+
+ </teiHeader>
+ <!-- FINE HEADER -->
+
+    <text>
+        <body>
+            <front>
+                <titlePart rend="bold">Sgariboldi tra Volvo e John Deere</titlePart>
+                <analytic rend="bold" color="red" level="a"> RESPRIRO MONDIALE </analytic>
+                <add xml:lang="italian">
+                    Il mercato di <name>Sgariboldi</name> si affaccia ben oltre il perimetro europeo <pc unit="full stop">.</pc>
+                    <placeName>Italia</placeName> e <placeName>Germania</placeName> sono mercati caldi ma da <placeName country="Italy">Codogno</placeName> 
+                    esportano anche negli <placeName>Stati Uniti </placeName>e in <placeName>Giappone</placeName><pc unit="full stop">.</pc>
+                    Volvo Penta è il sodale del <foreign>Tier</foreign><num>4</num><foreign> Final</foreign> 
+                    per la serie <num>6000</num><pc unit="comma">,</pc> in stage <num>V</num> sulle  <num>8000</num> 
+                    è rientrata John Deere<pc unit="full stop">.</pc>
+                </add>  
+            </front>
+            <space type="horizontal"/>
+            <div type="article" xml:lang="italian" >
+               <cb position="sx" n="1">
+                    <p>
+                         <hi rend="decorated">U</hi>na splendida sessantenenne<pc unit="comma">,</pc><name>Sgariboldi</name><pc unit="full stop">.</pc> Dalla <placeName>Bassa Lodigiana</placeName> al mondo<pc unit="comma">,</pc> 
+                         esattamente dal <date when="1959">1959</date><pc unit="comma">,</pc> .... carri miscelatori<pc unit="full stop">.</pc>
+                    </p>
+               </cb>
+               <space type="horizontal"/>
+               <cb position="sx" n="2">
+                    <p><said type="question" rend="bold">
+                        <salute>Buongiorno</salute><pc unit="comma">,</pc>Sgariboldi <pc unit="fullstop">.</pc> Ci può parlare delle vostre 
+                         macchine in riferimento alle motorizzazione<pc unit="question mark">?</pc>
+                    </said></p>
+                    <p><said type="answer" rend="italic">
+                        Ragionando di macchine semoventi con capacità..... 
+                        ....<pc unit="comma">,</pc> si presta ai volumi da 
+                        <num><abbr>18 m3</abbr><extend>18 metri cubi</extend></num>
+                        ... il doppio stadio da <num>300</num><abbr>kW</abbr><extend>Kilo Watt</extend>  <pc unit="Left parenthesis">(</pc><num>300</num> cavalli<pc unit="Right parenthesis">)</pc><pc unit="full stop">.</pc>
+                    </said></p>
+               </cb>
+               
+               <space type="horizontal"/>
+                 <cb position="central" n="3">
+                    <p><said type="question" rend="bold">
+                       Cosa chiede ai motoristi<pc unit="question mark">?</pc>  
+                    </said></p>
+                    <p><said type="answer" rend="italic">
+                      Una riflessione.... i <num>6</num> cilindri<pc unit="full stop">.</pc>
+                    </said></p>
+               </cb>
+
+               <space type="horizontal"/>
+                <cb position="central" n="4">
+                    <p><said type="question" rend="bold">
+                        Quale ciclo di lavoro ha un carro miscelatore<pc unit="question mark">?</pc>
+                    </said></p>
+
+                    <p><said type="answer" rend="italic">
+                      Sostanzialmente lavora a regimi fissi<pc unit="full stop">.</pc>L'assaborbimento maggiore .... 
+                    </said></p>
+               </cb>
+
+               <space type="horizontal"/>
+                <cb position="central" n="5" >
+                    <p><said type="question" rend="bold">
+                         Perchè Volvo<pc unit="question mark">?</pc>
+                    </said></p>
+                    
+                    <p><said type="answer" rend="italic">
+                        Abbiamo scelto Volvo... In seguito alle prescrizioni <foreign>Stage</foreign> <num>V</num>...
+                    </said></p>
+               </cb>
+
+               <space type="horizontal"/>
+                 <cb position="dx" n="6">
+                    <p><said type="question" rend="bold">
+                         Ipotesi di gassificazione ed elettrificazione<pc unit="question mark">?</pc>
+                    </said></p>
+
+                    <p><said type="answer" rend="italic">
+                      Crediamo fortemente..... 
+                    </said></p>
+               </cb>
+               <space type="horizontal"/>
+                 <cb position="dx" n="7">
+                    <p><said type="question">
+                         Il <num>5,1</num> o il <num>6,8</num> resteranno le cilindrate in auge<pc unit="question mark">?</pc> 
+                    </said></p>
+
+                    <p><said type="answer">
+                      abbiamo tuttora.... i <num>6</num> cilindri<pc unit="full stop">.</pc>
+                    </said></p>
+                    <persName><forename>Fabio</forename><surname>Butturi</surname></persName>
+               </cb>
+               <space type="horizontal"/>
+               <figure>
+                    <figDesc rend="bold">Due immagini esplicative del ciclo di lavoro delle macchine semoventi<name>Sgariboldi</name><pc unit="full stop">.</pc></figDesc>
+                <graphic url="./artProvasx.PNG" position="sx" />
+                <graphic url="./artProvadx.PNG" position="dx" />
+                </figure>
+            </div>
+       </body>
+    </text>
+</TEI>

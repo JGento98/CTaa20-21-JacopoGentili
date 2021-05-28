@@ -1,0 +1,94 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<!--    WELL FORMED -->
+<TEI xmlns = " http://www.tei-c.org/ns/1.0 " >
+ <!--TEI HEADER -->
+    <teiHeader> 
+        <fileDesc>
+            <titleStmt> 
+                <!-- sezione per la codifica del titolo dell'edizione digitale--> 
+                <title>Mitologia greca</title>
+                <author>Wikipedia</author>
+            </titleStmt>
+
+            <publicationStmt>
+            <!-- Sezione per la codifica dei dati di diffusione e distribuzione dell'edizione-->
+              <publisher>Jacopo Gentili </publisher>
+              <date>2021</date>
+              <availability status ="restricted"><p></p></availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <bibl>
+                <!-- Descrizione fonte primaria -->
+                <title>Mitologia greca </title>
+    
+                <publisher><ref target="https://it.wikipedia.org/wiki/Mitologia_greca">Wikipedia</ref></publisher>
+                </bibl>
+          </sourceDesc>
+
+        </fileDesc>
+    </teiHeader>
+ <!-- FINE HEADER -->
+
+    <text xmlns="http://www.tei-c.org/ns/1.0">
+        <body>
+            <div type= "summary" n = "0">
+                <list>
+                    <head rend="bold">Indice</head>
+                    <item><num>1</num>Descrizione</item>
+                    <item><num>1</num>.<num>1</num><foreign xml:lang="GK">Mýthos</foreign> e <foreign xml:lang="GK">Lógos</foreign>: origine dei termini e procedere del loro significato nella cultura greca </item>
+                    <item><num>1.</num><num>2</num> Cantori "ispirati" dalle Muse: l'origine sacra della mitologia greca </item>
+                    <item><num>1.</num><num>3</num> I personaggi e divinità della mitologia greca </item>
+                    <item><num>2</num> Le fonti della mitologia greca </item>
+                    <item><num>2.</num><num>1</num> Fonti letterarie</item>
+                    <item><num>2.</num><num>2</num> Fonti archeologiche</item>
+                    <item><num>3</num> Analisi storica dei miti</item>
+                </list>
+
+            </div>
+
+
+         <div type = "Chapter" n = "1"> 
+            <pb/>
+            <head rend="bold">Descrizione</head>
+            <p n = "1"> 
+                La mitologia greca fu ed è la raccolta e quindi lo studio dei miti greci appartenenti alla cultura religiosa degli antichi greci 
+                e che riguardano, in particolare, i loro <hi rend="bold">dèi ed eroi</hi>. I miti greci furono raccolti in cicli che concernono le differenti aree del 
+                mondo ellenico. Unico elemento unificante è la composizione del 
+
+                <term xml:id= "pnth">pantheon</term> 
+                <gloss target="#pnth"> 
+                   Insieme di divinità che fanno parte di un culto politeista 
+                </gloss>
+
+                greco, costituito da una gerarchia di figure divine che rappresentano anche le forze o aspetti della natura. Gli studiosi 
+                contemporanei studiano e analizzano gli antichi miti nel tentativo di fare luce sulle istituzioni politiche e religiose dell'
+                <placeName><offset>antica</offset><country key = "GR">Grecia</country></placeName> e, in generale, di tutta l'antica civiltà greca.
+            </p>
+
+            <p n="2">
+                Si compone di una vasta raccolta di racconti che spiegano l'origine del mondo ed espongono dettagliatamente la vita e le 
+                avventure di un gran numero di dèi e dee, eroi ed eroine e altre creature mitologiche. Questi racconti inizialmente furono 
+                composti e diffusi in una forma poetica e compositiva orale, mentre sono invece giunti fino a noi principalmente attraverso 
+                i testi scritti dalla tradizione letteraria greca.
+            </p>
+
+            <p n="3">
+                Le più antiche fonti letterarie conosciute, i due poemi epici <hi rend="bold"><objectName type =" Poem" rend="bold"> Iliade</objectName></hi> e 
+                <hi rend="bold"><objectName type =" Poem" rend="bold">Odissea</objectName></hi>, concentrano la loro attenzione sugli eventi che ruotano attorno alla vicenda 
+                della guerra di <placeName> Troia</placeName>. 
+                Altri due poemi quasi contemporanei alle opere omeriche, la <objectName type =" Poem">Teogonia</objectName> e 
+                <objectName type =" Poem">Le opere e i giorni</objectName> scritti da <persName>Esiodo</persName>, contengono invece 
+                racconti che riguardano la genesi del mondo, la cronologia dei sovrani celesti, il succedersi delle età dell'uomo, l'inizio delle 
+                sofferenze umane e l'origine delle pratiche sacrificali. Diversi miti sono contenuti anche negli Inni omerici, nei frammenti dei 
+                poemi del Ciclo epico, nelle poesie dei lirici greci, nelle opere dei tragediografi del
+                <date><num>V</num> secolo <abbr> a.C. </abbr><expan>avanti Cristo</expan></date> 
+                , negli scritti degli studiosi 
+                e dei poeti dell'età ellenistica e negli scrittori come <persName>Plutarco</persName> e <persName>Pausania</persName>.
+            </p>
+          </div>
+                 <note>Il capitolo continua, per saperne di più visita il link: <ptr target ="https://it.wikipedia.org/wiki/Mitologia_greca"/></note> 
+       </body>
+    </text>
+</TEI>

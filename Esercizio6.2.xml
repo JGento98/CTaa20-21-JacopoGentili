@@ -1,0 +1,8 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "./es6.dtd">
+<!--  WELL FORMED -->
+<TEI>
+    <header></header>
+    <facsimile source="Source"></facsimile>
+    <text id= "paragrafo1"></text>
+</TEI>

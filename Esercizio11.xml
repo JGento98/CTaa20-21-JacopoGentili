@@ -1,0 +1,74 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!--    WELL FORMED -->
+<!DOCTYPE TEI SYSTEM "./es11.dtd">
+<TEI xmlns = "http://www.tei-c.org/ns/1.0" >
+ <!--TEI HEADER -->
+ <teiHeader> 
+        <fileDesc>
+            <!-- sezione per la codifica del titolo dell'edizione digitale--> 
+            <titleStmt> 
+                <title>Lettera di Vincenzo Bellini a Carlo Pepoli</title>
+                <author>Vincenzo Bellini</author>
+                <respStmt>
+                    <resp>Testo codificato dal testo originale con TEI P5 a cura di </resp>
+                    <name>Jacopo Gentili </name>
+                </respStmt>
+            </titleStmt>
+
+            <!-- Sezione per la codifica dei dati di diffusione e distribuzione dell'edizione-->
+            <publicationStmt>
+                  <p>Codifica di esercizio </p>
+                  <publisher>Pastura <date when="1959">1959</date> </publisher>
+                  <publisher>Neri <date when="2005">2005</date> </publisher>
+                  <avalability status ="restricted"><p>No licenza</p></avalability>
+            </publicationStmt>
+
+            <!-- Descrizione fonte primaria -->
+            <sourceDesc>
+                <bibl>
+                <title>Lettera di Bellini a Pepoli</title>
+                <author>Vincenzo Bellini</author>
+                <pubPlace> Puteaux </pubPlace>
+                <date when="26/06/1834">26 giugno 1834</date>
+                </bibl>
+          </sourceDesc>
+
+        </fileDesc>
+
+        <encodingDesc>
+            <p>Codifica in TEI P5 partendo dal manoscritto originale</p>    
+        </encodingDesc>
+
+ </teiHeader>
+ <!-- FINE HEADER -->
+    <text>
+        <body>
+            <div type = "lettera">
+                <pb facs="#inizioLet" xml:id ="inizioPAG"/>
+                <opener> 
+                 <dateline lang ="FR" facs="#dataLine">
+                     Juin <num>26</num><pc unit="colon">:</pc><placeName country="France">Puteau</placeName> <pc unit="Hyphen-minus">–</pc> N:°<num type="ordinal">19</num> bis rampe 
+                        <space dim="vertical"></space>de<placeName country="France" rend="underline">Neuilly</placeName>
+                 </dateline>
+                 <salute facs="#Saluti">Mio caro 
+                        <persName>
+                            <choice>
+                                <orig>Car<damage agent="time">lu</damage>ccio</orig>
+                                <reg>Carlo</reg>
+                            </choice>
+                        </persName>
+                 </salute>
+                </opener>
+                <p facs="#Inizio">avendo steso l<pc unit="Apostrophe">’</pc>intero duetto...</p>
+            </div>
+       </body>
+    </text>
+    <facsimile>
+        <surface xml:id="inizioLet" start="#inizioPAG" ulx="0" uly="0" lrx='830' lry='301'>
+                <graphic url='1.PNG'/>
+                <zone xml:id="dataLine" ulx="4" uly="4" lrx="823" lry="129" />
+                <zone xml:id="Saluti" ulx="4" uly="132" lrx="823" lry="190" />
+                <zone xml:id="Inizio" ulx="3" uly="195" lrx="820" lry="296" />
+            </surface>
+    </facsimile>
+</TEI>

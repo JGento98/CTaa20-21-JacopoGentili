@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root
+    [
+    
+   
+    ]
+>
+<test>
+    <msg>prova codifica xsl</msg>
+    <title>IL TITOLO</title>
+    <div>
+    <p>si usa se sono presenti più nodi con lo stesso nome </p></div>
+    
+
+    <div><p>si usa se sono presenti più nodi con lo stesso nome </p></div>   
+</test>

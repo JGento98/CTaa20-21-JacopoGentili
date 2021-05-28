@@ -1,0 +1,11 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<!--    WELL FORMED -->
+
+<!DOCTYPE TEI SYSTEM "./es4.dtd">
+
+<TEI>
+    <header></header>
+    <facsimile></facsimile>
+    <text>LOREM IPSUM</text>
+</TEI>
