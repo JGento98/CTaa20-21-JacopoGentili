@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+
+                </title>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>
+                    
+                </publisher>
+            </publicationStmt>
+
+            <sourceDesc>
+                <bibl>
+
+                </bibl>
+            </sourceDesc>
+        </fileDesc>   
+    </teiHeader>
+
+    <text>
+        <body>
+           <head>LA PESTE NERA</head>
+           <div type="chapter" n ="1">
+            <p>
+                Questo sito utilizza cookie, di prima e di terza parte, per mostrarti 
+                pubblicità in linea con le tue preferenze e per misurare le prestazioni
+                 annunci e contenuti pubblicati, come esplicato nella cookie policy. 
+                 In particolare, noi e alcuni partner selezionati potremmo utilizzare 
+                 dati di geolocalizzazione precisi e fare una scansione attiva delle 
+                 caratteristiche del dispositivo ai fini dell’identificazione con lo 
+                 scopo di archiviare e/o accedere ad alcune informazioni su un 
+                 dispositivo e conseguentemente trattare i tuoi dati personali.
+                
+            </p>
+           </div>
+           <div type="chapter" n ="2">
+            <p>
+                Questo sito utilizza cookie, di prima e di terza parte, per mostrarti 
+                pubblicità in linea con le tue preferenze e per misurare le prestazioni
+                 annunci e contenuti pubblicati, come esplicato nella cookie policy. 
+                 In particolare, noi e alcuni partner selezionati potremmo utilizzare 
+                 dati di geolocalizzazione precisi e fare una scansione attiva delle 
+                 caratteristiche del dispositivo ai fini dell’identificazione con lo 
+                 scopo di archiviare e/o accedere ad alcune informazioni su un 
+                 dispositivo e conseguentemente trattare i tuoi dati personali.
+                
+            </p>
+           </div>
+           
+        </body>
+
+    </text>
+</TEI>
