@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "tei_ms.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+
+                    <titleStmt>
+                        <title>Trois premières conférences à l'Université (cours d'ouverture, novembre 1891): versione elettronica</title>
+                        <author ref="#FS" role="composer">Ferdinand de Saussure</author>
+                        <respStmt>
+                            <resp>Codifica a cura di: </resp>
+                            <name ref="#WB">William Brai</name>
+                            <name ref="#JG">Jacopo Gentili</name>
+                        </respStmt>
+                        <respStmt xml:id="trascr">
+                            <resp>Edizione francese<date>2002</date>: Testo in redazione quasi finale, con correzioni, cancellature, aggiunte interlineari e frasi incomplete a cura di </resp>
+                            <name ref="#SB">Simon Bouquet</name>
+                            <name ref="#RE">Rudolf Engler</name>
+                        </respStmt>
+                    </titleStmt>
+
+                    <editionStmt>
+                        <edition>Edizione digitale, <date>2021</date>
+                        </edition>
+                        <respStmt>
+                            <resp>Responsabili dell'edizione: </resp>
+                            <name ref="#WB">William Brai</name>
+                            <name ref="#JG">Jacopo Gentili</name>
+                        </respStmt>
+                    </editionStmt>
+
+                    <publicationStmt>
+                        <publisher>Università di Pisa</publisher>
+                        <pubPlace>Pisa</pubPlace>
+                        <authority>Brai</authority>
+                        <date>2021</date>
+                        
+                    </publicationStmt>
+
+
+                    <sourceDesc>
+                        <bibl xml:lang="fr">
+                            <title>Trois premières conférences à l'Université (cours d'ouverture, novembre 1891)</title>
+                            <author>Ferdinand de Saussure</author>
+                            <publisher>Bibliothèque de Genève</publisher>
+                            <date when="11/1891">novembre 1891</date>
+                            <ref>https://archives.bge-geneve.ch/ark:/17786/vtae78f994bf3242bef/dao/</ref>
+                            <availability status="restricted">
+                            <licence target="https://creativecommons.org/licenses/by-nc/3.0/"> <p>Creative Commons attribution-NonCommercial 3.0 Unported Licence (CC BY-NC 3.0)</p></licence>
+                            </availability>
+                        </bibl>
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Ginevra</settlement>
+                                <repository role="library" ref="https://archives.bge-geneve.ch/">Bibliothèque de Genève</repository>
+                                <idno>BGE Ms. fr. 3951/1.1-3</idno>
+                                <msName xml:lang="fr">Trois premières conférences à l'Université (cours d'ouverture, novembre 1891)</msName>
+                            </msIdentifier>
+                            <head>
+                                <title>Trois premières conférences à l'Université:(cours d'ouverture, <date when="1891" from="06/11/1891" to="13/11/1891">novembre 1891</date>) </title>
+                            </head>
+
+                            <msContents>
+                                <msItem n="1">
+                                    <locus from="1" to="30">pp. 7</locus>
+                                    <author>Ferdinand de Saussure </author>
+                                </msItem>
+                                <msItem n="2">
+                                    <locus from="1" to="30">pp. 8</locus>
+                                    <author>Ferdinand de Saussure </author>
+                                </msItem>
+                            </msContents>
+                            
+                            <physDesc>
+                                <objectDesc>
+                                        <supportDesc>
+                                            <support>
+                                                <material>Carta.</material>
+                                            </support>
+                                            <extent>30 + 15 + 22 pagine + 1 foglio</extent>
+                                            <condition>
+                                                <p>Fogli in condizioni accettabili.</p> 
+                                            </condition>
+                                        </supportDesc>
+                                    </objectDesc>
+                                <handDesc>
+                                    <handNote>
+                                        <p>Il manoscritto è stato realizzato di getto, 
+                                            per seguire il flusso di pensiero del padre della linguistica generale, 
+                                            come prova di ciò possiamo notare molte cancellazioni e aggiunte all'interno del manoscritto.</p>
+                                    </handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                <p>Scritto da <persName>Ferdinand de Saussure</persName> nel <date when="11/1891">novembre 1891</date></p>
+                                </origin>
+                                <provenance>
+                                    <p>Utilizzato per le prime lezioni del corso di <title>Phonétique du grec et du latin</title></p>
+                                </provenance>
+                                <acquisition><p>Gli scritti di <persName>Ferdinand de Sussure</persName> sono stati acquisiti nell'archivio della biblioteca di Ginevra dal 1955 al 1988</p></acquisition>
+                            </history>
+                            <additional>
+                                <surrogates>
+                                    <listBibl>
+                                        
+                                            <bibl xml:id="bibl1" type="PDF" xml:lang="IT">
+                                            <title level="u">PROLUSIONI ALL’UNIVERSITÀ DI GINEVRA</title>
+                                            <ptr target="https://github.com/angelodel80/corsoCodifica/blob/master/CTaa20-21/progetto-esame/Prolusioni1-new.pdf"/>
+                                            <note xml:id="notebibl1">Trascrizioni da francese ad italiano, con evidenziazione di fenomeni testuali</note>
+                                            </bibl>
+
+                                            <bibl xml:id="bibl2" type="PDF" xml:lang="IT">
+                                            <title level="m">LINGUA E MENTE SOCIALE </title>
+                                            <author>Emanuele Fadda</author>
+                                            <publisher>Bonanno Editore</publisher>
+                                            <ptr target="https://github.com/angelodel80/corsoCodifica/blob/master/CTaa20-21/progetto-esame/Testi%20FdS_IT-Prolusioni%2BLettera%20a%20G.%20Paris%20(E.%20Fadda).pdf"/>
+                                            <note xml:id="notebibl2">Traduzione italiana delle prolusioni e altri scritti, dalla quale abbiamo ricavato le note all'interno del testo</note>
+                                            </bibl>
+
+                                    </listBibl>
+                                </surrogates>
+                            </additional>
+                        </msDesc>
+                    </sourceDesc>
+
+        </fileDesc>
+
+        <encodingDesc>
+            <projectDesc><p>Testo codificato  in TEI P5 dal manoscritto originale con il supporto di una traduzione italiano/francese</p></projectDesc>
+        </encodingDesc>
+
+        <profileDesc>
+            <langUsage>
+                <language ident="fr">francese</language>
+                <language ident="it">italiano</language>
+            </langUsage>
+        </profileDesc>
+
+    </teiHeader>
+   <text type="manuscript">
+        <group>
+        <!-- MANOSCRITTO PAG 7 --> 
+            <text xml:id="pp7" type="manuscript">
+                <body xml:lang="fr">
+                    <div xml:id="page7">
+                        <head><num rend="circled" facs="#numPag">7</num></head>
+                        <pb/>
+                        <p>
+                            
+
+                             <seg type="line7"> 
+                             <lb facs="#l1_p7"/> 
+                                  ... serait peut-être l’
+                                <hi rend="underlined">homme</hi>, mais 
+                            </seg>
+
+                            
+                            <seg type="line7">
+                            <lb facs="#l2_p7"/>
+                                 qu’il ne serait pas 
+                                <add place="top" facs="#add1TOP_p7">un être se rapprochant même approximativement</add> 
+                                <add place="above">de</add> l’homme <del rend="strikethrough"><add place="above"> que nous</add><gap reason="cancelled" rend="underlined" extent="2 words"/></del>
+                            </seg>
+                            <seg type="line7">
+                            <lb facs="#l3_p7"/>
+                                <del rend="strikethrough"><add place="left">connaissons</add></del>
+                                <del rend="underlined">et</del>
+                                <del rend="strikethrough"><gap reason="cancelled" extent="7 words"/></del>
+                                <add place="above"><unclear reason="illegible">que nous sommes,</unclear></add> 
+                            </seg>
+                            
+                            <seg type="line7">
+                            <lb facs="#l4_p7"/>
+                                <del rend="strikethrough"><gap reason="cancelled" extent="3 words"/></del>
+                                parce que le <term ref="#langage1">langage</term>
+                            </seg>
+
+                            
+                            <seg type="line7">
+                            <lb facs="#l5_p7"/>
+                                a été <del rend="strikethrough"><gap reason="cancelled" extent="3 words"/></del> 
+                                le <choice><abbr type="brevigraph">+</abbr><expan>(plus)</expan></choice> 
+                                <subst><del rend="strikethrough"><gap reason="cancelled" extent="2 words"/></del> <add type="above"><del rend="strikethrough"><gap reason="cancelled" extent="1 words"/></del>formidable</add></subst>
+                            </seg>
+                           
+                            <seg type="line7">
+                             <lb facs="#l6_p7"/>
+                                <add place="left">engin</add>
+                                <del rend="strikethrough"><gap reason="cancelled" extent="3 words" /></del> 
+                                <add place="above">d’</add>
+                                <term ref="#ac">action collective</term> 
+                                <add place="above">d’une part</add>
+                                , <term ref="#ei">et d’éducation</term>
+                            </seg>
+                            
+                            <seg type="line7">
+                            <lb facs="#l7_p7"/>
+                                
+                                <add facs="#add2LX_p7" place="left">
+                                    <subst>
+                                    <del rend="strikethrough"><gap reason="cancelled"/></del>
+                                   <add place="below"> <term ref="#ei">individuelle</term></add>
+                                    </subst>
+                                </add> 
+                                <del rend="strikethrough"><damage agent="ink"/><gap reason="cancelled"/></del>
+                                de l’autre<ptr target="#n1"/>, <gap reason="illegible"/>
+                            </seg>
+
+                            <seg type="line7">
+                            <lb facs="#l8_p7"/>
+                            
+                                <del rend="strikethrough"><gap reason="cancelled"/></del><space facs="#space_1" />
+                             </seg>
+
+                            <seg type="line7">
+                              <lb facs="#l9_p7"/>
+                                <del rend="strikethrough"><gap reason="cancelled"/></del><gap reason="illegible"/>l’instrument sans
+                            </seg>
+
+                            <seg type="line7">
+                            <lb facs="#l10_p7"/>
+                           
+                                lequel 
+                                <subst>
+                                    <add place="above">en fait </add>
+                                    <del rend="strikethrough"><gap reason="cancelled"/></del>
+                                    <add facs="#add3LX2_p7" place="left">l’individu ou l’espèce</add> 
+                                    <del rend="strikethrough"><gap reason="cancelled"/></del>
+                                    <add place="above">n’auraient jamais pu</add> 
+                                </subst>
+                                même aspirer
+                           </seg>
+
+                            
+                            <seg type="line7">
+                            <lb facs="#l11_p7"/>
+                                à développer dans aucun sens 
+                                <del rend="strikethrough"><gap reason="cancelled"/></del>
+                                ses 
+                                <del rend="strikethrough"><gap reason="cancelled"/></del>
+                            </seg>
+
+                           
+                            <seg type="line7">
+                             <lb facs="#l12_p7"/>
+                                <term ref="#fm">facultés natives</term><ptr target="#n2"/>.<del rend="strikethrough"><gap reason="cancelled"/></del><space facs="#space_2"/>
+                            </seg>
+                            
+                            <seg type="line7">
+                            <lb facs="#L13Canc_p7"/><space facs="#space_3"/><del rend="strikethrough"><gap reason="cancelled"/></del>
+                            </seg>
+                            <seg type="line7">
+                            <lb facs="#L14Canc_p7"/><space facs="#space_4"/><del rend="strikethrough"><gap reason="cancelled"/></del>
+                            </seg>
+                            <seg type="line7">
+                            <lb facs="#L15Canc_p7"/><del rend="strikethrough"><gap reason="cancelled"/></del>
+                            </seg>
+                            <space facs="#space_5" />
+                    </p>
+                    </div>
+                     <div type="list_7">
+                        <list type="terminology">
+                            <item>
+                                <term xml:lang="fr" xml:id="langage1">langage</term>
+                                <gloss xml:lang="fr" target="#langage1"><ref  target ="https://raw.githubusercontent.com/SilviaPiccini/Simple_FdS/main/BANCA_DATI_SIMPLE_FdS.owl">Faculté significatrice et exercice de cette faculté à travers une convention sociale; cette faculté ne saurait être exercée sans un instrument venu du dehors : la langue</ref></gloss>
+                            </item>
+                            <item>
+                                <term xml:lang="fr" xml:id="ac">action collective</term>
+                                <gloss xml:lang="it" target="#ei">l'insieme delle variazioni individuali e personali rispetto a una norma linguistica (ad esempio particolarità di pronuncia o lessico).</gloss>
+                            </item>
+                            <item>
+                                <term xml:lang="fr" xml:id="ei">éducation individuelle</term>
+                                <gloss xml:lang="it" target="#ei">Parte attiva e individuale della lingua, si distingue in: 1°) l'uso delle facoltà in generale in vista della lingua (fonazione, ecc.); 2) l'uso individuale del codice linguistico secondo il pensiero individuale</gloss>
+                            </item>
+                            <item>
+                                <term xml:lang="fr" xml:id="fn">facultés natives</term>
+                                <gloss xml:lang="it" target="#fn">il linguaggio è una facoltà innata che consente all'uomo di comunicare, mentre il linguaggio è il modo in cui questa facoltà si manifesta e si realizza concretamente</gloss>
+                            </item>
+                        </list>
+                    </div>
+                    <div type="notes_7">
+                        <note xml:id="n1">Sul ruolo del linguaggio in filogenesi e in ontogenesi v. almeno Deacon (1997) e Vygotskij (1934).</note>
+                        <note xml:id="n2">Saussure non nega affatto il radicamento biologico del linguaggio. Ma il suo “innatismo” non può essere confuso con quello di Chomsky, anzitutto per la chiara distinzione (sebbene nel contesto di una complementarietà affermata a più riprese) tra lingua e linguaggio.</note>
+                    </div>
+                </body>
+            </text>
+        <!-- MANOSCRITTO PAG 8 --> 
+            <text xml:id="pp8" type="manuscript" >
+                <body xml:lang="fr">
+                    <div xml:id="page8">
+                        <head><num rend="circle">8</num></head>
+                        <pb/>
+                        <p>
+<!-- Linea 1 -->           
+                            <seg type="line8">
+                                <lb facs="#L1_p8"/>
+                                Ici ce présente cette objection <gap reason="editorial" extent="2 words" />
+    <!-- Linea 2 -->         </seg>     
+
+                            <seg type="line8">
+                                <lb facs="#L2_p8"/>
+                                <gap reason="editorial" extent="1 word"/>
+                                <add place="above">
+                                    <choice><abbr type="brevigraph">+</abbr><expan> (plus)</expan></choice> 
+                                    <supplied reason="editorial" >ou moins</supplied> fondée 
+                                    <unclear reason="illegible">selon nous </unclear>
+                                </add> : vous transformez l’<term ref="#edl">étude</term>
+    <!-- Linea 3 -->        </seg>    
+
+                             <seg type="line8">
+                            <lb facs="#L3_p8"/>
+                                <term ref="#edl">des langues</term>  en l’<term ref="#edl">étude du langage</term>, <del rend="strikethrough">humain</del>
+    <!-- Linea 4 -->        </seg>
+
+                            <seg type="line8">
+                                <lb facs="#L4_p8"/>
+                                <add place="left" facs="add1LX_p8"> du <term ref="#langage1">langage</term></add>considéré comme <term ref="#fn">faculté de l’homme</term>, comme
+    <!-- Linea 5 -->        </seg>                     
+                            
+                            <seg type="line8">
+                            <lb facs="#L5_p8"/>
+                                    <add place="left" facs="add2LX_p8"> un des</add> signes distinctifs de son espèce, comme caractère
+    <!-- Linea 6 -->         </seg>    
+
+                            
+                            <seg type="line8">
+                                <lb facs="#L6_p8"/>
+                                    anthropologique ou pour ainsi dire zoologique.
+    <!-- Linea 7 -->         </seg>   
+
+                             <seg type="line8">             
+                                <lb facs="#L7_p8"/>
+                                    Messieurs, c’est ici un point sur lequel il
+                            </seg>
+    <!-- Linea 8-->                                
+                            
+                            <seg type="line8">
+                                <lb facs="#L8_p8"/>
+                                    me faudrait disposer d’un temps considérable
+                            </seg>
+    <!-- Linea 9 -->                                
+                           
+                            <seg type="line8"> 
+                             <lb facs="#L9_p8"/>
+                                    pour exposer, <add place="above">développer</add> et justifier mon <term ref="#pdv">point de</term>
+    <!-- Linea 10 -->       </seg>  
+
+                            <seg type="line8">                
+                                <lb facs="#L10_p8"/>
+                                    <term ref="#pdv">vue</term>, qui n’est pas autre que celui de tous 
+    <!-- Linea 11 -->        </seg>
+
+                            <seg type="line8">                           
+                                <lb facs="#L11_p8"/>
+                                    les <term ref="#linguiste">linguistes</term> actuels : c’est qu’en effet l’<term ref="#edl">étude</term>
+    <!-- Linea 12 -->        </seg> 
+
+                            <seg type="line8">                          
+                                <lb facs="#L12_p8"/>
+                                    <term ref="#edl">du langage</term><add place="above">comme fait</add> humain est tout entier ou
+    <!-- Linea 13 -->       </seg>
+
+                            <seg type="line8">                           
+                                    <lb facs="#L13_p8"/> 
+                                    presque <choice><abbr type="brevigraph">tt</abbr><expan>tout</expan></choice> entier contenu dans l’étude <hi rend="underlined">des langues</hi>.
+    <!-- Linea 14 -->       </seg>  
+
+                            <seg type="line8">                   
+                            <lb facs="#L14_p8"/> 
+                                    Le <term ref="#physiologiste">phsiologiste</term>, <del rend="strikethrough">et</del> le <term ref="#psychologue">psychologue</term> <del rend="strikethrough"><gap reason="cancelled" extent= "1 word"></gap></del>
+    <!-- Linea 15 -->       </seg>
+
+                           
+                            <seg type="line8"> 
+                                 <lb facs="#L15_p8"/>
+                                    <add place="left" facs="add3LX_p8">et le <hi rend="underline"><term ref="#logicien">logicien</term> pourront</hi></add> longtemps disserter, le <term ref="#philosophe">philosophe</term>
+    <!-- Linea 16 -->       </seg>   
+
+                            <seg type="line8"> 
+                                <lb facs="#L16_p8"/>
+                                    pourra reprendre ensuite les résultats
+    <!-- Linea 17 -->       </seg> 
+
+
+                            <seg type="line8"> 
+                             <lb facs="#L17_p8"/>
+                                    combinés de la <term ref="#logique">logique</term>, de la <term ref="#psychologie">psychologie</term> et
+    <!-- Linea 18 -->       </seg>   
+
+                            <seg type="line8"> 
+                                <lb facs="#L18_p8"/>
+                                    de la <term ref="#physiologie">physiologie</term>, jamais, je me permets de
+    <!-- Linea 19 -->        </seg>
+
+                            <seg type="line8"> 
+                                <lb facs="#L19_p8"/> 
+                                    le dire, les plus élémentaires phénomènes du
+    <!-- Linea 20-->        </seg>  
+
+                            <seg type="line8"> 
+                                <lb facs="#L20_p8"/>
+                                    <term ref="#langage1">langage</term> ne seront soupçonnés, ou clairement
+    <!-- Linea 21 -->       </seg> 
+
+                            <seg type="line8"> 
+                                <lb facs="#L21_p8"/>
+                                    aperçus, classés et compris, si l’on ne
+    <!-- Linea 22 -->        </seg>     
+
+                            <seg type="line8"> 
+                                <lb facs="#L22_p8"/>
+                                    e recourt en <choice><abbr type="brevigraph">1°</abbr><expan>première</expan></choice> et dernière instance à l’<term ref="#edl">étude</term>
+    <!-- Linea 23 -->       </seg>
+    
+                            <seg type="line8">                      
+                                <lb facs="#L23_p8"/>
+                                <hi rend="underlined"><term ref="#edl">des langues</term></hi><ptr target="#n3"/>. <term ref="#langue1">Langue</term> et <term ref="#langage1">langage</term> ne sont
+    <!-- Linea 24 -->       </seg>   
+
+                            <seg type="line8"> 
+                                <lb facs="#L24_p8"/>
+                                    qu’une même chose ;<del rend="strikethrough"><gap reason="cancelled" extent="1 word"/></del> l’un est la générali--
+    <!-- Linea 25 -->        </seg>  
+
+                            <seg type="line8"> 
+                                <lb facs="#L25_p8"/>
+                                    sation de l’autre<ptr target="#n4"/>. Vouloir étudier le <term ref="#langage1">langage</term>
+                            </seg>
+                        </p>
+                    </div>
+                    <div type="list_8">
+                        <list type="terminology">
+                            <item>
+                                <term xml:lang="fr" xml:id="edl">étude des langues</term>
+                                <gloss xml:lang="fr" target="#edl"><ref  target ="https://raw.githubusercontent.com/SilviaPiccini/Simple_FdS/main/BANCA_DATI_SIMPLE_FdS.owl">Ce qui frappe tout d'abord dans l'étude des langues, c'est leur diversité, les différences linguistiques qui apparaissent dès qu'on passe d'un pays à un autre, ou même d'un district à un autre. Si les divergences dans le temps échappent souvent à l'observateur, les divergences dans l'espace sautent tout de suite aux yeux.</ref></gloss>
+                            </item>
+                            <item>
+                                <term xml:lang="fr" xml:id="pdv">point de vue</term>
+                                <gloss xml:lang="it" target="#pdv">il punto di vista a cui si fa riferimento indica che lo studio del linguaggio come fatto umano è tutto o quasi tutto ricompreso nello studio delle lingue</gloss>
+                            </item>
+                            <item>
+                                <term xml:lang="fr" xml:id="linguiste">linguistes</term>
+                                <gloss xml:lang="it" target="#linguiste"> Chi si dedica allo studio delle lingue (o anche soltanto, o in modo specifico, della propria lingua), soprattutto da un punto di vista teorico, sistematico e storico; studioso di linguistica.</gloss>
+                            </item>
+                            <item>
+                                <term xml:id="physiologiste">physiologiste</term>
+                                <gloss xml:lang="it" target="#physiologiste">
+                                    <ref target="https://www.treccani.it/vocabolario/ricerca/fisiologo/">Cultore della fisiologia, studioso di fisiologia</ref>
+                                </gloss>
+                            </item>
+                             <item>
+                                    <term xml:id="psychologue">psychologue</term>
+                                    <gloss xml:lang="it" target="#psychologue">
+                                        <ref target="https://www.treccani.it/vocabolario/psicologo/">Studioso di psicologia; chi esercita la psicologia come professione in determinati settori o ambienti</ref>
+                                    </gloss>
+                            </item>
+                            <item>
+                                <term xml:id="philosophe">philosophe</term>
+                                <gloss xml:lang="it" target="#philosophe">
+                                    <ref target="https://it.wikipedia.org/wiki/Filosofo">Il filosofo, nella definizione più generica è colui che professa e/o mette in atto una filosofia, cioè, una dottrina, elaborata attraverso un'autonoma indagine razionale, in parte originale e in parte che si richiama, in accordo o in contrasto, ai pensatori che lo hanno preceduto nella storia della filosofia, su aspetti universali, teoretici e pratici, della vita umana.</ref>  
+                                </gloss>
+                            </item>
+                            <item>
+                                <term xml:id="logicien">logicien</term>
+                                <gloss xml:lang="it" target="#logicien">Studioso di logica
+                                </gloss>
+                            </item>
+                            <item>
+                                <term xml:id="logique">logique </term>
+                                <gloss xml:lang="it" target="#logique">Disciplina che studia le condizioni di validità delle argomentazioni deduttive.
+                                </gloss>
+                            </item>
+                            <item>
+                                <term xml:id="psychologie">psychologie </term>
+                                <gloss xml:lang="IT" target="#psychologie">
+                                    <ref target="https://www.treccani.it/enciclopedia/psicologia/">Scienza che studia i processi psichici, coscienti e inconsci, cognitivi (percezione, attenzione, memoria, linguaggio, pensiero ecc.)e dinamici (emozioni, motivazioni, personalità ecc.).</ref> 
+                                </gloss>
+                            </item>
+                            <item>
+                                <term xml:lang="fr" xml:id="langue1">langue</term>
+                                <gloss xml:lang="fr" target="#langue1"><ref target ="https://raw.githubusercontent.com/SilviaPiccini/Simple_FdS/main/BANCA_DATI_SIMPLE_FdS.owl">Système particulier de symboles indépendants</ref></gloss>
+                            </item>
+                            <item>
+                                <term  xml:id="physiologie"> physiologie </term>
+                                <gloss xml:lang="IT" target="#physiologie">
+                                    <ref target="https://www.treccani.it/enciclopedia/tag/fisiologia/">Scienza che studia le funzioni degli organismi viventi – animali e vegetali – per conoscere le cause, le condizioni e le leggi che determinano</ref>
+                                </gloss>
+                            </item>
+                        </list>
+                    </div>
+                    <div type="notes_8">
+                        <note xml:id="n3">Nota soprattutto l’insistenza sull’imprescindibilità delle lingue, che si presentano irriducibilmente molteplici e diverse l’una dall’altra.</note>
+                        <note xml:id="n4">Saussure vuole rimarcare la complementarità di lingua e linguaggio. La sua affermazione, però, non può e non deve essere confusa con una concezione à la Chomsky, per cui il vero language è la Grammatica Universale, e lo studio delle lingue è in fondo solo questione di parametrizzazione.</note>
+                    </div>
+                    <div type="lists">
+                        <listPerson>
+                            <head>Lista persone</head>
+                            <person xml:id="FS">
+                                <persName role="composer">
+                                    <ref target="https://www.treccani.it/enciclopedia/ferdinand-de-saussure/"/>
+                                    <forename>Ferdinand</forename>
+                                    <surname>de Saussure</surname>
+                                </persName>
+                                <sex>M</sex>
+                                <birth>
+                                    <date when="26/11/1857">26 novembre 1857</date>
+                                    <placeName>
+                                        <settlement type="municipality">Ginevra</settlement>
+                                        <country>Svizzera</country>
+                                    </placeName>
+                                </birth>
+                                <death>
+                                    <date when="22/02/1913">22 Febbraio 1913</date>
+                                    <placeName>
+                                        <settlement type="municipality">Vufflens-le-Château</settlement>
+                                        <country>Svizzera</country>
+                                    </placeName>
+                                </death>
+                            </person>
+                            <person xml:id="WB">
+                                <persName>
+                                    <forename>William</forename>
+                                    <surname>Brai</surname>
+                                </persName>
+                                <sex>M</sex>
+                                <birth>
+                                    <date when="11/05/1997">11 Maggio 1997</date>
+                                    <placeName>
+                                        <settlement type="municipality">La Spezia</settlement>
+                                        <country>Italia</country>
+                                    </placeName>
+                                </birth>
+                            </person>
+                            <person xml:id="JG">
+                                <persName>
+                                    <forename>Jacopo</forename>
+                                    <surname>Gentili</surname>
+                                </persName>
+                                <sex>M</sex>
+                                <birth>
+                                    <date when="06/10/1998">6 Ottobre 1998</date>
+                                    <placeName>
+                                        <settlement type="municipality">Cecina</settlement>
+                                        <settlement type="province">Livorno</settlement>
+                                        <country>Italia</country>
+                                    </placeName>
+                                </birth>
+                            </person>
+                            <person xml:id="SB">
+                                <persName>
+                                    <forename>Simon</forename>
+                                    <surname>Bouquet</surname>
+                                </persName>
+                                <sex>M</sex>
+                                <birth>
+                                    <date>1954</date>
+                                    <placeName>
+                                        <country>Francia</country>
+                                    </placeName>
+                                </birth>
+                            </person>
+                            <person xml:id="RE">
+                                <persName>
+                                    <ref target="https://de.wikipedia.org/wiki/Rudolf_Engler"/>
+                                    <forename>Rudolf</forename>
+                                    <surname>Engler</surname>
+                                </persName>
+                                <sex>M</sex>
+                                <birth>
+                                    <date when="25/11/1930">25 Ottobre 1930</date>
+                                    <placeName>
+                                        <settlement type="municipality">Teufen</settlement>
+                                        <settlement type="canton">Appenzello Esterno</settlement>
+                                        <country>Svizzera</country>
+                                    </placeName>
+                                </birth>
+                                <death>
+                                    <date when="05/09/2003">5 Settembre 2003</date>
+                                </death>
+                            </person>
+                        </listPerson>
+                    </div>
+                </body>
+            </text>
+        </group>
+    </text>
+    <facsimile>
+        <surface xml:id="facspp7" ulx="255" uly="413" lrx="3750" lry="5873">
+            <graphic url="pp7.jpg"/>
+            <zone xml:id="numPag" ulx="460" uly="479" lrx="828" lry="772" rendition="Line"/>
+            <zone xml:id="l1_p7" ulx="749" uly="823" lrx="3437" lry="999" rendition="Line"/>
+            <zone xml:id="l2_p7" ulx="763" uly="1023" lrx="3605" lry="1215" rendition="Line" />
+            <zone xml:id="l3_p7" ulx="389" uly="1196" lrx="3595" lry="1460" rendition="Line" />
+            <zone xml:id="l4_p7" ulx="799" uly="1481" lrx="3506" lry="1642" rendition="Line" />
+            <zone xml:id="l5_p7" ulx="828" uly="1649" lrx="3511" lry="1836" rendition="Line" />
+            <zone xml:id="l6_p7" ulx="370" uly="1805" lrx="3650" lry="2050"  rendition="Line"/>
+            <zone xml:id="l7_p7" ulx="938" uly="2055" lrx="3554" lry="2266" rendition="Line" />
+            <zone xml:id="L8_p7" ulx="895" uly="2308" lrx="3279" lry="2449" rendition="Line" />
+            <zone xml:id="L9_p7" ulx="646" uly="2461" lrx="3574" lry="2634" rendition="Line" />
+            <zone xml:id="L10_p7" ulx="863" uly="2669" lrx="3683" lry="2871" rendition="Line" />
+            <zone xml:id="L11_p7" ulx="831" uly="2893" lrx="3667" lry="3012" rendition="Line" />
+            <zone xml:id="L12_p7" ulx="841" uly="3044" lrx="3631" lry="3217" rendition="Line" />
+            <!-- Aggiunte di Ferdinand -->
+            <zone xml:id="add1TOP_p7" ulx="2281" uly="487" lrx="3699" lry="813" rendition="Line" />
+            <zone xml:id="add2LX_p7" ulx="316" uly="2071" lrx="854" lry="2391" rendition="Line" />
+            <zone xml:id="add3LX2_p7" ulx="313" uly="2737" lrx="796" lry="3181" rendition="Line" />
+            <!-- ultime righe cancellate -->
+            <zone xml:id="L13Canc_p7" ulx="1011" uly="3258" lrx="3596" lry="3457" rendition="Line" />
+            <zone xml:id="L14Canc_p7" ulx="1078" uly="3511" lrx="3583" lry="3729" rendition="Line" />
+            <zone xml:id="L15Canc_p7" ulx="771" uly="3761"  lrx="3398" lry="3978" rendition="Line" />
+            <zone xml:id="space_1" ulx="2539" uly="3005" lrx="3568" lry="3192" rendition="Line" />
+            <zone xml:id="space_2" ulx="2533" uly="2985" lrx="3568" lry="3233" rendition="Line" />
+            <zone xml:id="space_3" ulx="774" uly="3307" lrx="1020" lry="3451" rendition="Line" />
+            <zone xml:id="space_4" ulx="764" uly="3521" lrx="1107" lry="3691" rendition="Line" />
+            <zone xml:id="space_5" ulx="777" uly="4087" lrx="3369" lry="5668" rendition="Line" />
+            
+        </surface>
+        <surface  ulx="230" uly="317" lrx="3779" lry="4865" xml:id="facspp8" >
+            <graphic url="pp8.jpg"/>
+            <!-- num pag-->
+            <zone ulx="396" uly="362" lrx="703" lry="637" />
+            <!-- linee corpo pag 8 --> 
+            <zone ulx="1006" uly="495" lrx="3696" lry="655" rendition="Line" xml:id="L1_p8"  />
+            <zone ulx="845" uly="658" lrx="3734" lry="871"  rendition="Line" xml:id="L2_p8" />
+            <zone ulx="845" uly="886" lrx="3739" lry="1083" rendition="Line" xml:id="L3_p8" />
+            <zone ulx="302" uly="1078" lrx="3730" lry="1251" rendition="Line" xml:id="L4_p8" />
+            <zone ulx="432" uly="1270" lrx="3725" lry="1426" rendition="Line" xml:id="L5_p8" />
+            <zone ulx="888" uly="1435" lrx="3761" lry="1584" rendition="Line" xml:id="L6_p8" />
+            <zone ulx="899" uly="1607" lrx="3727" lry="1757" rendition="Line" xml:id="L7_p8"/>
+            <zone ulx="899" uly="1780" lrx="3711" lry="1937" rendition="Line" xml:id="L8_p8"/>
+            <zone ulx="873" uly="1981" lrx="3699" lry="2119" rendition="Line" xml:id="L9_p8"/>
+            <zone ulx="879" uly="2145" lrx="3673" lry="2260" rendition="Line" xml:id="L10_p8"/>
+            <zone ulx="878" uly="2302" lrx="3713" lry="2455" rendition="Line" xml:id="L11_p8"/>
+            <zone ulx="943" uly="2465" lrx="3653" lry="2623" rendition="Line" xml:id="L12_p8"/>
+            <zone ulx="943" uly="2633" lrx="3715" lry="2842" rendition="Line" xml:id="L13_p8"/>
+            <zone ulx="948" uly="2859" lrx="3732" lry="2991" rendition="Line" xml:id="L14_p8"/>
+            <zone ulx="283" uly="3029" lrx="3706" lry="3144" rendition="Line" xml:id="L15_p8"/>
+            <zone ulx="917" uly="3175" lrx="3665" lry="3319" rendition="Line" xml:id="L16_p8"/>
+            <zone ulx="919" uly="3324" lrx="3641" lry="3480" rendition="Line" xml:id="L17_p8"/>
+            <zone ulx="919" uly="3480" lrx="3631" lry="3629" rendition="Line" xml:id="L18_p8"/>
+            <zone ulx="831" uly="3664" lrx="3743" lry="3818" rendition="Line" xml:id="L19_p8"/>
+            <zone ulx="835" uly="3840" lrx="3731" lry="4000" rendition="Line" xml:id="L20_p8"/>
+            <zone ulx="851" uly="4023" lrx="3702" lry="4183" rendition="Line" xml:id="L21_p8"/>
+            <zone ulx="857" uly="4202" lrx="3702" lry="4311" rendition="Line" xml:id="L22_p8"/>
+            <zone ulx="870" uly="4330" lrx="3686" lry="4490" rendition="Line" xml:id="L23_p8"/>
+            <zone ulx="926" uly="4538" lrx="3708" lry="4655" rendition="Line" xml:id="L24_p8"/>
+            <zone ulx="1020" uly="4684" lrx="3723" lry="4804" rendition="Line" xml:id="L25_p8"/>
+        <!-- Aggiunte di Ferdinand -->
+            <zone ulx="332" uly="1129" lrx="870" lry="1273" xml:id="add1LX_p8"/>
+            <zone ulx="406" uly="1289" lrx="895" lry="1478" xml:id="add2LX_p8"/>
+            <zone ulx="278" uly="3044" lrx="979" lry="3316" xml:id="add3LX_p8"/>
+           
+        </surface>
+    </facsimile>
+</TEI>
